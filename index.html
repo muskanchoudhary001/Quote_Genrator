@@ -9,7 +9,7 @@
       font-family: Arial, sans-serif;
       text-align: center;
       margin-top: 100px;
-      background-color: #f0f0f0;
+      background: linear-gradient(to right, #74ebd5, #acb6e5); /* Gradient background */
     }
     .quote {
       font-size: 24px;
@@ -30,10 +30,11 @@
       background-color: #3498db;
       color: white;
       cursor: pointer;
-      transition: background-color 0.3s;
+      transition: background-color 0.3s, transform 0.2s; /* Added transform effect */
     }
     button:hover {
       background-color: #2980b9;
+      transform: scale(1.05); /* Slightly enlarge button on hover */
     }
   </style>
 </head>
